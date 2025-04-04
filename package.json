@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This is Namaste React by Akshai saini",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -17,11 +19,21 @@
   },
   "homepage": "https://github.com/Narahari9999/react-project#readme",
   "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@testing-library/jest-dom": "^6.6.3",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "parcel": "^2.14.4"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.6.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.4.1"
   },
   "browserslist": [
     "last 2 versions"

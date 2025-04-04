@@ -18,3 +18,9 @@
 - HTTPs
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
+
+# React Hooks
+
+- Normal functions given by React
+- useState() - Super powerful react variables
+- useEffect()
